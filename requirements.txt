@@ -1,0 +1,11 @@
+torch>=2.4.0
+transformers
+accelerate
+datasets
+bitsandbytes
+nnsight
+anthropic
+einops
+tqdm
+pandas
+matplotlib
