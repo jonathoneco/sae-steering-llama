@@ -122,3 +122,151 @@ def generate_steered(model, tokenizer, input_ids, steering_vector, alpha,
         return generate(model, tokenizer, input_ids, max_new_tokens, temperature)
     finally:
         handle.remove()
+
+
+# --- Phase A: Layer-parameterized loading ---
+
+def get_sae_path_for_layer(layer):
+    """Get SAE path for an arbitrary layer."""
+    subfolder = f"resid_post_layer_{layer}/trainer_1"
+    hf_hub_download(SAE_REPO, f"{subfolder}/config.json")
+    weights_path = hf_hub_download(SAE_REPO, f"{subfolder}/ae.pt")
+    return os.path.dirname(weights_path)
+
+
+def load_steering_vector_at_layer(layer, feature_idx, device="cuda"):
+    """Load SAE for a given layer, extract steering vector, free SAE."""
+    sae_path = get_sae_path_for_layer(layer)
+    sae, _ = load_dictionary(sae_path, device="cpu")
+    vec = sae.decoder.weight[:, feature_idx].detach().clone()
+    vec = vec / vec.norm()
+    vec = vec.to(device, dtype=torch.float16)
+    del sae
+    gc.collect()
+    return vec
+
+
+def load_sae_at_layer(layer, device="cpu"):
+    """Load full SAE for an arbitrary layer."""
+    sae_path = get_sae_path_for_layer(layer)
+    sae, config = load_dictionary(sae_path, device=device)
+    return sae, config
+
+
+def get_activation_norm(model, tokenizer, input_ids, layer):
+    """Measure ||x^l|| at a given layer for the last token."""
+    norms = {}
+
+    def hook_fn(module, input, output):
+        if isinstance(output, tuple):
+            h = output[0]
+        elif isinstance(output, torch.Tensor):
+            h = output
+        else:
+            h = output[0]
+        if h.ndim == 3:
+            norms["val"] = h[:, -1, :].detach().float().norm().item()
+        else:
+            norms["val"] = h.detach().float().norm().item()
+
+    handle = model.model.layers[layer].register_forward_hook(hook_fn)
+    with torch.no_grad():
+        model(input_ids)
+    handle.remove()
+    return norms["val"]
+
+
+# --- Phase C: Hook variants ---
+
+def make_additive_hook_all_tokens(steering_vector, alpha):
+    """Hook that adds alpha * steering_vector to ALL token positions."""
+    def hook_fn(module, input, output):
+        if isinstance(output, tuple):
+            hidden_states = output[0]
+        elif isinstance(output, torch.Tensor):
+            hidden_states = output
+        else:
+            hidden_states = output[0]
+
+        if hidden_states.ndim == 3:
+            hidden_states[:, :, :] += alpha * steering_vector
+        else:
+            hidden_states += alpha * steering_vector
+
+        if isinstance(output, tuple):
+            return (hidden_states,) + output[1:]
+        elif isinstance(output, torch.Tensor):
+            return hidden_states
+        else:
+            output[0] = hidden_states
+            return output
+    return hook_fn
+
+
+def make_additive_hook_decode_only(steering_vector, alpha):
+    """Hook that steers only during autoregressive decode (seq_len == 1)."""
+    def hook_fn(module, input, output):
+        if isinstance(output, tuple):
+            hidden_states = output[0]
+        elif isinstance(output, torch.Tensor):
+            hidden_states = output
+        else:
+            hidden_states = output[0]
+
+        # Only steer when sequence length is 1 (decode step)
+        is_decode = (hidden_states.ndim == 2) or (hidden_states.ndim == 3 and hidden_states.shape[1] == 1)
+        if is_decode:
+            if hidden_states.ndim == 3:
+                hidden_states[:, -1, :] += alpha * steering_vector
+            else:
+                hidden_states += alpha * steering_vector
+
+        if isinstance(output, tuple):
+            return (hidden_states,) + output[1:]
+        elif isinstance(output, torch.Tensor):
+            return hidden_states
+        else:
+            output[0] = hidden_states
+            return output
+    return hook_fn
+
+
+# --- Phase E: Tracing hook ---
+
+def make_tracing_hook(sae, feature_indices):
+    """Read-only hook that logs SAE activations without modifying output.
+
+    Returns a (hook_fn, trace_log) tuple. trace_log is a list that gets
+    appended to at each forward pass with a dict of feature activations
+    and top-5 features.
+    """
+    trace_log = []
+
+    def hook_fn(module, input, output):
+        if isinstance(output, tuple):
+            hidden_states = output[0]
+        elif isinstance(output, torch.Tensor):
+            hidden_states = output
+        else:
+            hidden_states = output[0]
+
+        if hidden_states.ndim == 3:
+            last_token = hidden_states[:, -1, :].detach().float()
+        else:
+            last_token = hidden_states.detach().float()
+
+        with torch.no_grad():
+            features = sae.encode(last_token.to(sae.decoder.weight.device))
+            feat_vals = features.squeeze(0)
+
+            # Target feature activations
+            target_acts = {int(idx): feat_vals[idx].item() for idx in feature_indices}
+
+            # Top-5 features
+            top5_vals, top5_idx = torch.topk(feat_vals, 5)
+            top5 = [(int(top5_idx[j].item()), top5_vals[j].item()) for j in range(5)]
+
+        trace_log.append({"target_features": target_acts, "top5": top5})
+        # Read-only: do not modify output
+
+    return hook_fn, trace_log

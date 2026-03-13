@@ -1,0 +1,377 @@
+{
+  "safety_warnings": {
+    "top_features": [
+      {
+        "feature_idx": 12926,
+        "count": 8,
+        "mean_activation": 3.7130913734436035,
+        "max_activation": 3.9827051162719727,
+        "score": 29.704730987548828
+      },
+      {
+        "feature_idx": 20544,
+        "count": 7,
+        "mean_activation": 1.28217955998012,
+        "max_activation": 1.841037392616272,
+        "score": 8.97525691986084
+      },
+      {
+        "feature_idx": 72280,
+        "count": 5,
+        "mean_activation": 1.5789113998413087,
+        "max_activation": 1.7949320077896118,
+        "score": 7.894556999206543
+      },
+      {
+        "feature_idx": 86138,
+        "count": 6,
+        "mean_activation": 0.939452330271403,
+        "max_activation": 1.183955430984497,
+        "score": 5.636713981628418
+      },
+      {
+        "feature_idx": 38808,
+        "count": 8,
+        "mean_activation": 0.6520319581031799,
+        "max_activation": 0.7545536756515503,
+        "score": 5.2162556648254395
+      },
+      {
+        "feature_idx": 7225,
+        "count": 8,
+        "mean_activation": 0.6505997180938721,
+        "max_activation": 1.2087159156799316,
+        "score": 5.204797744750977
+      },
+      {
+        "feature_idx": 4056,
+        "count": 8,
+        "mean_activation": 0.6429563164710999,
+        "max_activation": 0.8679659962654114,
+        "score": 5.143650531768799
+      },
+      {
+        "feature_idx": 6256,
+        "count": 7,
+        "mean_activation": 0.6651270730154855,
+        "max_activation": 1.0304431915283203,
+        "score": 4.655889511108398
+      },
+      {
+        "feature_idx": 41931,
+        "count": 8,
+        "mean_activation": 0.5321716666221619,
+        "max_activation": 0.724382758140564,
+        "score": 4.257373332977295
+      },
+      {
+        "feature_idx": 82375,
+        "count": 8,
+        "mean_activation": 0.5132694244384766,
+        "max_activation": 0.6761367321014404,
+        "score": 4.1061553955078125
+      }
+    ],
+    "n_prompts": 8
+  },
+  "legal_regulatory": {
+    "top_features": [
+      {
+        "feature_idx": 12926,
+        "count": 8,
+        "mean_activation": 3.8207430839538574,
+        "max_activation": 3.973677158355713,
+        "score": 30.56594467163086
+      },
+      {
+        "feature_idx": 86138,
+        "count": 8,
+        "mean_activation": 0.8565574288368225,
+        "max_activation": 1.2296887636184692,
+        "score": 6.85245943069458
+      },
+      {
+        "feature_idx": 4056,
+        "count": 8,
+        "mean_activation": 0.8303332328796387,
+        "max_activation": 1.135868787765503,
+        "score": 6.642665863037109
+      },
+      {
+        "feature_idx": 20544,
+        "count": 6,
+        "mean_activation": 1.0024488766988118,
+        "max_activation": 1.908474087715149,
+        "score": 6.014693260192871
+      },
+      {
+        "feature_idx": 7225,
+        "count": 7,
+        "mean_activation": 0.8531843594142369,
+        "max_activation": 1.1694433689117432,
+        "score": 5.972290515899658
+      },
+      {
+        "feature_idx": 38808,
+        "count": 8,
+        "mean_activation": 0.6287060379981995,
+        "max_activation": 0.7158030271530151,
+        "score": 5.029648303985596
+      },
+      {
+        "feature_idx": 82375,
+        "count": 8,
+        "mean_activation": 0.5877883434295654,
+        "max_activation": 0.6417996883392334,
+        "score": 4.702306747436523
+      },
+      {
+        "feature_idx": 98082,
+        "count": 6,
+        "mean_activation": 0.6716424624125162,
+        "max_activation": 0.9070043563842773,
+        "score": 4.029854774475098
+      },
+      {
+        "feature_idx": 72280,
+        "count": 4,
+        "mean_activation": 0.9868064522743225,
+        "max_activation": 1.9494975805282593,
+        "score": 3.94722580909729
+      },
+      {
+        "feature_idx": 63583,
+        "count": 7,
+        "mean_activation": 0.4876819338117327,
+        "max_activation": 0.8248594403266907,
+        "score": 3.413773536682129
+      }
+    ],
+    "n_prompts": 8
+  },
+  "medieval_fantasy": {
+    "top_features": [
+      {
+        "feature_idx": 12926,
+        "count": 8,
+        "mean_activation": 3.0021398067474365,
+        "max_activation": 3.8417410850524902,
+        "score": 24.017118453979492
+      },
+      {
+        "feature_idx": 42566,
+        "count": 8,
+        "mean_activation": 1.7139626741409302,
+        "max_activation": 2.2765145301818848,
+        "score": 13.711701393127441
+      },
+      {
+        "feature_idx": 95793,
+        "count": 8,
+        "mean_activation": 1.2504607439041138,
+        "max_activation": 1.5739612579345703,
+        "score": 10.00368595123291
+      },
+      {
+        "feature_idx": 54517,
+        "count": 8,
+        "mean_activation": 1.02572762966156,
+        "max_activation": 1.6234793663024902,
+        "score": 8.20582103729248
+      },
+      {
+        "feature_idx": 1876,
+        "count": 7,
+        "mean_activation": 0.9802075794764927,
+        "max_activation": 1.2547374963760376,
+        "score": 6.861453056335449
+      },
+      {
+        "feature_idx": 18335,
+        "count": 7,
+        "mean_activation": 0.9509487152099609,
+        "max_activation": 1.3267641067504883,
+        "score": 6.656641006469727
+      },
+      {
+        "feature_idx": 7225,
+        "count": 8,
+        "mean_activation": 0.7241460084915161,
+        "max_activation": 0.9727428555488586,
+        "score": 5.793168067932129
+      },
+      {
+        "feature_idx": 38808,
+        "count": 8,
+        "mean_activation": 0.5503342151641846,
+        "max_activation": 0.6074701547622681,
+        "score": 4.402673721313477
+      },
+      {
+        "feature_idx": 9429,
+        "count": 8,
+        "mean_activation": 0.4970642328262329,
+        "max_activation": 0.6318918466567993,
+        "score": 3.9765138626098633
+      },
+      {
+        "feature_idx": 63583,
+        "count": 7,
+        "mean_activation": 0.5490478788103376,
+        "max_activation": 0.7463250756263733,
+        "score": 3.843335151672363
+      }
+    ],
+    "n_prompts": 8
+  },
+  "science_research": {
+    "top_features": [
+      {
+        "feature_idx": 12926,
+        "count": 8,
+        "mean_activation": 3.6405739784240723,
+        "max_activation": 3.8944010734558105,
+        "score": 29.124591827392578
+      },
+      {
+        "feature_idx": 7225,
+        "count": 8,
+        "mean_activation": 1.0902522802352905,
+        "max_activation": 1.2575809955596924,
+        "score": 8.722018241882324
+      },
+      {
+        "feature_idx": 54517,
+        "count": 8,
+        "mean_activation": 0.8170011043548584,
+        "max_activation": 1.4111531972885132,
+        "score": 6.536008834838867
+      },
+      {
+        "feature_idx": 4056,
+        "count": 8,
+        "mean_activation": 0.7228159308433533,
+        "max_activation": 1.095515489578247,
+        "score": 5.782527446746826
+      },
+      {
+        "feature_idx": 41931,
+        "count": 8,
+        "mean_activation": 0.6181179881095886,
+        "max_activation": 0.8057478070259094,
+        "score": 4.944943904876709
+      },
+      {
+        "feature_idx": 18335,
+        "count": 7,
+        "mean_activation": 0.6942801475524902,
+        "max_activation": 1.1103663444519043,
+        "score": 4.859961032867432
+      },
+      {
+        "feature_idx": 74059,
+        "count": 8,
+        "mean_activation": 0.5873141884803772,
+        "max_activation": 0.6835907697677612,
+        "score": 4.698513507843018
+      },
+      {
+        "feature_idx": 82375,
+        "count": 8,
+        "mean_activation": 0.574791669845581,
+        "max_activation": 0.6998475193977356,
+        "score": 4.598333358764648
+      },
+      {
+        "feature_idx": 38808,
+        "count": 8,
+        "mean_activation": 0.5583570003509521,
+        "max_activation": 0.6813249588012695,
+        "score": 4.466856002807617
+      },
+      {
+        "feature_idx": 86138,
+        "count": 8,
+        "mean_activation": 0.5190650820732117,
+        "max_activation": 1.2598732709884644,
+        "score": 4.152520656585693
+      }
+    ],
+    "n_prompts": 8
+  },
+  "cooking_food": {
+    "top_features": [
+      {
+        "feature_idx": 12926,
+        "count": 8,
+        "mean_activation": 3.6408276557922363,
+        "max_activation": 3.967823028564453,
+        "score": 29.12662124633789
+      },
+      {
+        "feature_idx": 7225,
+        "count": 8,
+        "mean_activation": 0.8580637574195862,
+        "max_activation": 1.1524020433425903,
+        "score": 6.8645100593566895
+      },
+      {
+        "feature_idx": 41931,
+        "count": 8,
+        "mean_activation": 0.639183759689331,
+        "max_activation": 0.9680495262145996,
+        "score": 5.113470077514648
+      },
+      {
+        "feature_idx": 38808,
+        "count": 8,
+        "mean_activation": 0.589954674243927,
+        "max_activation": 0.7199571132659912,
+        "score": 4.719637393951416
+      },
+      {
+        "feature_idx": 82375,
+        "count": 8,
+        "mean_activation": 0.5453125238418579,
+        "max_activation": 0.6622955799102783,
+        "score": 4.362500190734863
+      },
+      {
+        "feature_idx": 24634,
+        "count": 6,
+        "mean_activation": 0.6744285424550375,
+        "max_activation": 0.8862431645393372,
+        "score": 4.046571254730225
+      },
+      {
+        "feature_idx": 13238,
+        "count": 7,
+        "mean_activation": 0.4991098472050258,
+        "max_activation": 0.7588128447532654,
+        "score": 3.4937689304351807
+      },
+      {
+        "feature_idx": 4056,
+        "count": 6,
+        "mean_activation": 0.5650773048400879,
+        "max_activation": 0.8645238280296326,
+        "score": 3.3904638290405273
+      },
+      {
+        "feature_idx": 86138,
+        "count": 4,
+        "mean_activation": 0.6961517930030823,
+        "max_activation": 1.2681280374526978,
+        "score": 2.784607172012329
+      },
+      {
+        "feature_idx": 1876,
+        "count": 5,
+        "mean_activation": 0.5563833713531494,
+        "max_activation": 0.9407584071159363,
+        "score": 2.781916856765747
+      }
+    ],
+    "n_prompts": 8
+  }
+}

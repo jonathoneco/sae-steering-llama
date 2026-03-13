@@ -21,6 +21,15 @@ def explicit_concept(text: str, keyword: str = "eiffel") -> bool:
     return keyword.lower() in text.lower()
 
 
+def explicit_concept_multi(text: str, keywords: list[str]) -> int:
+    """Count how many keywords from the list appear in text (case-insensitive).
+
+    Returns the count of distinct keywords found (0 to len(keywords)).
+    """
+    text_lower = text.lower()
+    return sum(1 for kw in keywords if kw.lower() in text_lower)
+
+
 def surprise(steered_logprobs: list[float], reference_logprobs: list[float]) -> float:
     """Mean difference in negative log probability (steered vs reference).
 

@@ -1,0 +1,1156 @@
+{
+  "universal_features": [
+    12926
+  ],
+  "universal_threshold": 3,
+  "top_n_for_universal": 3,
+  "raw": {
+    "safety_warnings": {
+      "top_features": [
+        {
+          "feature_idx": 12926,
+          "count": 8,
+          "mean_activation": 3.7130913734436035,
+          "max_activation": 3.9827051162719727,
+          "score": 29.704730987548828
+        },
+        {
+          "feature_idx": 20544,
+          "count": 7,
+          "mean_activation": 1.28217955998012,
+          "max_activation": 1.841037392616272,
+          "score": 8.97525691986084
+        },
+        {
+          "feature_idx": 72280,
+          "count": 5,
+          "mean_activation": 1.5789113998413087,
+          "max_activation": 1.7949320077896118,
+          "score": 7.894556999206543
+        },
+        {
+          "feature_idx": 86138,
+          "count": 6,
+          "mean_activation": 0.939452330271403,
+          "max_activation": 1.183955430984497,
+          "score": 5.636713981628418
+        },
+        {
+          "feature_idx": 38808,
+          "count": 8,
+          "mean_activation": 0.6520319581031799,
+          "max_activation": 0.7545536756515503,
+          "score": 5.2162556648254395
+        },
+        {
+          "feature_idx": 7225,
+          "count": 8,
+          "mean_activation": 0.6505997180938721,
+          "max_activation": 1.2087159156799316,
+          "score": 5.204797744750977
+        },
+        {
+          "feature_idx": 4056,
+          "count": 8,
+          "mean_activation": 0.6429563164710999,
+          "max_activation": 0.8679659962654114,
+          "score": 5.143650531768799
+        },
+        {
+          "feature_idx": 6256,
+          "count": 7,
+          "mean_activation": 0.6651270730154855,
+          "max_activation": 1.0304431915283203,
+          "score": 4.655889511108398
+        },
+        {
+          "feature_idx": 41931,
+          "count": 8,
+          "mean_activation": 0.5321716666221619,
+          "max_activation": 0.724382758140564,
+          "score": 4.257373332977295
+        },
+        {
+          "feature_idx": 82375,
+          "count": 8,
+          "mean_activation": 0.5132694244384766,
+          "max_activation": 0.6761367321014404,
+          "score": 4.1061553955078125
+        },
+        {
+          "feature_idx": 63583,
+          "count": 6,
+          "mean_activation": 0.5697428782780966,
+          "max_activation": 0.7535000443458557,
+          "score": 3.418457269668579
+        },
+        {
+          "feature_idx": 54517,
+          "count": 7,
+          "mean_activation": 0.4212420327322824,
+          "max_activation": 0.7009385824203491,
+          "score": 2.9486942291259766
+        },
+        {
+          "feature_idx": 77462,
+          "count": 8,
+          "mean_activation": 0.35681673884391785,
+          "max_activation": 0.4506237506866455,
+          "score": 2.8545339107513428
+        },
+        {
+          "feature_idx": 1876,
+          "count": 5,
+          "mean_activation": 0.5234663009643554,
+          "max_activation": 0.643653392791748,
+          "score": 2.6173315048217773
+        },
+        {
+          "feature_idx": 124205,
+          "count": 3,
+          "mean_activation": 0.8169628779093424,
+          "max_activation": 0.9758607745170593,
+          "score": 2.4508886337280273
+        },
+        {
+          "feature_idx": 4660,
+          "count": 4,
+          "mean_activation": 0.5320034027099609,
+          "max_activation": 0.5594472885131836,
+          "score": 2.1280136108398438
+        },
+        {
+          "feature_idx": 122555,
+          "count": 4,
+          "mean_activation": 0.5272701978683472,
+          "max_activation": 0.7806499600410461,
+          "score": 2.1090807914733887
+        },
+        {
+          "feature_idx": 91131,
+          "count": 5,
+          "mean_activation": 0.41909213066101075,
+          "max_activation": 0.4783262014389038,
+          "score": 2.0954606533050537
+        },
+        {
+          "feature_idx": 33843,
+          "count": 6,
+          "mean_activation": 0.3424456516901652,
+          "max_activation": 0.39648890495300293,
+          "score": 2.054673910140991
+        },
+        {
+          "feature_idx": 56771,
+          "count": 4,
+          "mean_activation": 0.4658758044242859,
+          "max_activation": 0.8694345355033875,
+          "score": 1.8635032176971436
+        }
+      ],
+      "n_prompts": 8
+    },
+    "legal_regulatory": {
+      "top_features": [
+        {
+          "feature_idx": 12926,
+          "count": 8,
+          "mean_activation": 3.8207430839538574,
+          "max_activation": 3.973677158355713,
+          "score": 30.56594467163086
+        },
+        {
+          "feature_idx": 86138,
+          "count": 8,
+          "mean_activation": 0.8565574288368225,
+          "max_activation": 1.2296887636184692,
+          "score": 6.85245943069458
+        },
+        {
+          "feature_idx": 4056,
+          "count": 8,
+          "mean_activation": 0.8303332328796387,
+          "max_activation": 1.135868787765503,
+          "score": 6.642665863037109
+        },
+        {
+          "feature_idx": 20544,
+          "count": 6,
+          "mean_activation": 1.0024488766988118,
+          "max_activation": 1.908474087715149,
+          "score": 6.014693260192871
+        },
+        {
+          "feature_idx": 7225,
+          "count": 7,
+          "mean_activation": 0.8531843594142369,
+          "max_activation": 1.1694433689117432,
+          "score": 5.972290515899658
+        },
+        {
+          "feature_idx": 38808,
+          "count": 8,
+          "mean_activation": 0.6287060379981995,
+          "max_activation": 0.7158030271530151,
+          "score": 5.029648303985596
+        },
+        {
+          "feature_idx": 82375,
+          "count": 8,
+          "mean_activation": 0.5877883434295654,
+          "max_activation": 0.6417996883392334,
+          "score": 4.702306747436523
+        },
+        {
+          "feature_idx": 98082,
+          "count": 6,
+          "mean_activation": 0.6716424624125162,
+          "max_activation": 0.9070043563842773,
+          "score": 4.029854774475098
+        },
+        {
+          "feature_idx": 72280,
+          "count": 4,
+          "mean_activation": 0.9868064522743225,
+          "max_activation": 1.9494975805282593,
+          "score": 3.94722580909729
+        },
+        {
+          "feature_idx": 63583,
+          "count": 7,
+          "mean_activation": 0.4876819338117327,
+          "max_activation": 0.8248594403266907,
+          "score": 3.413773536682129
+        },
+        {
+          "feature_idx": 41931,
+          "count": 7,
+          "mean_activation": 0.4743802547454834,
+          "max_activation": 0.7015928626060486,
+          "score": 3.320661783218384
+        },
+        {
+          "feature_idx": 91131,
+          "count": 7,
+          "mean_activation": 0.46209890501839773,
+          "max_activation": 0.6055405735969543,
+          "score": 3.234692335128784
+        },
+        {
+          "feature_idx": 21009,
+          "count": 7,
+          "mean_activation": 0.4458754062652588,
+          "max_activation": 0.6387619972229004,
+          "score": 3.1211278438568115
+        },
+        {
+          "feature_idx": 6256,
+          "count": 5,
+          "mean_activation": 0.6191473007202148,
+          "max_activation": 0.8748284578323364,
+          "score": 3.095736503601074
+        },
+        {
+          "feature_idx": 54517,
+          "count": 6,
+          "mean_activation": 0.4662826458613078,
+          "max_activation": 0.6709960699081421,
+          "score": 2.7976958751678467
+        },
+        {
+          "feature_idx": 10095,
+          "count": 5,
+          "mean_activation": 0.5337166786193848,
+          "max_activation": 0.7532187104225159,
+          "score": 2.668583393096924
+        },
+        {
+          "feature_idx": 74059,
+          "count": 6,
+          "mean_activation": 0.4424016873041789,
+          "max_activation": 0.673458993434906,
+          "score": 2.6544101238250732
+        },
+        {
+          "feature_idx": 129304,
+          "count": 5,
+          "mean_activation": 0.4482741832733154,
+          "max_activation": 0.6421787738800049,
+          "score": 2.241370916366577
+        },
+        {
+          "feature_idx": 73064,
+          "count": 5,
+          "mean_activation": 0.43841118812561036,
+          "max_activation": 0.6726593971252441,
+          "score": 2.1920559406280518
+        },
+        {
+          "feature_idx": 5506,
+          "count": 6,
+          "mean_activation": 0.3649005889892578,
+          "max_activation": 0.4705301523208618,
+          "score": 2.189403533935547
+        }
+      ],
+      "n_prompts": 8
+    },
+    "medieval_fantasy": {
+      "top_features": [
+        {
+          "feature_idx": 12926,
+          "count": 8,
+          "mean_activation": 3.0021398067474365,
+          "max_activation": 3.8417410850524902,
+          "score": 24.017118453979492
+        },
+        {
+          "feature_idx": 42566,
+          "count": 8,
+          "mean_activation": 1.7139626741409302,
+          "max_activation": 2.2765145301818848,
+          "score": 13.711701393127441
+        },
+        {
+          "feature_idx": 95793,
+          "count": 8,
+          "mean_activation": 1.2504607439041138,
+          "max_activation": 1.5739612579345703,
+          "score": 10.00368595123291
+        },
+        {
+          "feature_idx": 54517,
+          "count": 8,
+          "mean_activation": 1.02572762966156,
+          "max_activation": 1.6234793663024902,
+          "score": 8.20582103729248
+        },
+        {
+          "feature_idx": 1876,
+          "count": 7,
+          "mean_activation": 0.9802075794764927,
+          "max_activation": 1.2547374963760376,
+          "score": 6.861453056335449
+        },
+        {
+          "feature_idx": 18335,
+          "count": 7,
+          "mean_activation": 0.9509487152099609,
+          "max_activation": 1.3267641067504883,
+          "score": 6.656641006469727
+        },
+        {
+          "feature_idx": 7225,
+          "count": 8,
+          "mean_activation": 0.7241460084915161,
+          "max_activation": 0.9727428555488586,
+          "score": 5.793168067932129
+        },
+        {
+          "feature_idx": 38808,
+          "count": 8,
+          "mean_activation": 0.5503342151641846,
+          "max_activation": 0.6074701547622681,
+          "score": 4.402673721313477
+        },
+        {
+          "feature_idx": 9429,
+          "count": 8,
+          "mean_activation": 0.4970642328262329,
+          "max_activation": 0.6318918466567993,
+          "score": 3.9765138626098633
+        },
+        {
+          "feature_idx": 63583,
+          "count": 7,
+          "mean_activation": 0.5490478788103376,
+          "max_activation": 0.7463250756263733,
+          "score": 3.843335151672363
+        },
+        {
+          "feature_idx": 2897,
+          "count": 7,
+          "mean_activation": 0.5419246809823173,
+          "max_activation": 0.6637300252914429,
+          "score": 3.7934727668762207
+        },
+        {
+          "feature_idx": 48926,
+          "count": 7,
+          "mean_activation": 0.51319762638637,
+          "max_activation": 0.6870628595352173,
+          "score": 3.59238338470459
+        },
+        {
+          "feature_idx": 44129,
+          "count": 5,
+          "mean_activation": 0.7122560977935791,
+          "max_activation": 0.9436067938804626,
+          "score": 3.5612804889678955
+        },
+        {
+          "feature_idx": 99544,
+          "count": 7,
+          "mean_activation": 0.4726755278451102,
+          "max_activation": 0.6701181530952454,
+          "score": 3.3087286949157715
+        },
+        {
+          "feature_idx": 41595,
+          "count": 8,
+          "mean_activation": 0.40968623757362366,
+          "max_activation": 0.5240086317062378,
+          "score": 3.2774899005889893
+        },
+        {
+          "feature_idx": 5506,
+          "count": 8,
+          "mean_activation": 0.38720589876174927,
+          "max_activation": 0.45094558596611023,
+          "score": 3.097647190093994
+        },
+        {
+          "feature_idx": 31286,
+          "count": 6,
+          "mean_activation": 0.4620392322540283,
+          "max_activation": 0.6087230443954468,
+          "score": 2.77223539352417
+        },
+        {
+          "feature_idx": 86138,
+          "count": 6,
+          "mean_activation": 0.42534951368967694,
+          "max_activation": 0.6469648480415344,
+          "score": 2.5520970821380615
+        },
+        {
+          "feature_idx": 22393,
+          "count": 5,
+          "mean_activation": 0.5029297351837159,
+          "max_activation": 0.7577399015426636,
+          "score": 2.514648675918579
+        },
+        {
+          "feature_idx": 25499,
+          "count": 5,
+          "mean_activation": 0.48583111763000486,
+          "max_activation": 0.5847992300987244,
+          "score": 2.4291555881500244
+        }
+      ],
+      "n_prompts": 8
+    },
+    "science_research": {
+      "top_features": [
+        {
+          "feature_idx": 12926,
+          "count": 8,
+          "mean_activation": 3.6405739784240723,
+          "max_activation": 3.8944010734558105,
+          "score": 29.124591827392578
+        },
+        {
+          "feature_idx": 7225,
+          "count": 8,
+          "mean_activation": 1.0902522802352905,
+          "max_activation": 1.2575809955596924,
+          "score": 8.722018241882324
+        },
+        {
+          "feature_idx": 54517,
+          "count": 8,
+          "mean_activation": 0.8170011043548584,
+          "max_activation": 1.4111531972885132,
+          "score": 6.536008834838867
+        },
+        {
+          "feature_idx": 4056,
+          "count": 8,
+          "mean_activation": 0.7228159308433533,
+          "max_activation": 1.095515489578247,
+          "score": 5.782527446746826
+        },
+        {
+          "feature_idx": 41931,
+          "count": 8,
+          "mean_activation": 0.6181179881095886,
+          "max_activation": 0.8057478070259094,
+          "score": 4.944943904876709
+        },
+        {
+          "feature_idx": 18335,
+          "count": 7,
+          "mean_activation": 0.6942801475524902,
+          "max_activation": 1.1103663444519043,
+          "score": 4.859961032867432
+        },
+        {
+          "feature_idx": 74059,
+          "count": 8,
+          "mean_activation": 0.5873141884803772,
+          "max_activation": 0.6835907697677612,
+          "score": 4.698513507843018
+        },
+        {
+          "feature_idx": 82375,
+          "count": 8,
+          "mean_activation": 0.574791669845581,
+          "max_activation": 0.6998475193977356,
+          "score": 4.598333358764648
+        },
+        {
+          "feature_idx": 38808,
+          "count": 8,
+          "mean_activation": 0.5583570003509521,
+          "max_activation": 0.6813249588012695,
+          "score": 4.466856002807617
+        },
+        {
+          "feature_idx": 86138,
+          "count": 8,
+          "mean_activation": 0.5190650820732117,
+          "max_activation": 1.2598732709884644,
+          "score": 4.152520656585693
+        },
+        {
+          "feature_idx": 127435,
+          "count": 7,
+          "mean_activation": 0.5550220693860736,
+          "max_activation": 0.7421170473098755,
+          "score": 3.885154485702515
+        },
+        {
+          "feature_idx": 91131,
+          "count": 8,
+          "mean_activation": 0.4847480058670044,
+          "max_activation": 0.6454920768737793,
+          "score": 3.877984046936035
+        },
+        {
+          "feature_idx": 128601,
+          "count": 6,
+          "mean_activation": 0.4900311628977458,
+          "max_activation": 0.9357879161834717,
+          "score": 2.9401869773864746
+        },
+        {
+          "feature_idx": 92123,
+          "count": 7,
+          "mean_activation": 0.4081671578543527,
+          "max_activation": 0.5824395418167114,
+          "score": 2.8571701049804688
+        },
+        {
+          "feature_idx": 63583,
+          "count": 7,
+          "mean_activation": 0.40727693693978445,
+          "max_activation": 0.5446466207504272,
+          "score": 2.850938558578491
+        },
+        {
+          "feature_idx": 24634,
+          "count": 5,
+          "mean_activation": 0.5280834197998047,
+          "max_activation": 0.683667004108429,
+          "score": 2.6404170989990234
+        },
+        {
+          "feature_idx": 98082,
+          "count": 6,
+          "mean_activation": 0.43082988262176514,
+          "max_activation": 0.6003585457801819,
+          "score": 2.584979295730591
+        },
+        {
+          "feature_idx": 50613,
+          "count": 3,
+          "mean_activation": 0.8440033594767252,
+          "max_activation": 1.0258865356445312,
+          "score": 2.532010078430176
+        },
+        {
+          "feature_idx": 21009,
+          "count": 5,
+          "mean_activation": 0.4638501167297363,
+          "max_activation": 0.5985409617424011,
+          "score": 2.3192505836486816
+        },
+        {
+          "feature_idx": 13238,
+          "count": 5,
+          "mean_activation": 0.4175397872924805,
+          "max_activation": 0.5166580080986023,
+          "score": 2.0876989364624023
+        }
+      ],
+      "n_prompts": 8
+    },
+    "cooking_food": {
+      "top_features": [
+        {
+          "feature_idx": 12926,
+          "count": 8,
+          "mean_activation": 3.6408276557922363,
+          "max_activation": 3.967823028564453,
+          "score": 29.12662124633789
+        },
+        {
+          "feature_idx": 7225,
+          "count": 8,
+          "mean_activation": 0.8580637574195862,
+          "max_activation": 1.1524020433425903,
+          "score": 6.8645100593566895
+        },
+        {
+          "feature_idx": 41931,
+          "count": 8,
+          "mean_activation": 0.639183759689331,
+          "max_activation": 0.9680495262145996,
+          "score": 5.113470077514648
+        },
+        {
+          "feature_idx": 38808,
+          "count": 8,
+          "mean_activation": 0.589954674243927,
+          "max_activation": 0.7199571132659912,
+          "score": 4.719637393951416
+        },
+        {
+          "feature_idx": 82375,
+          "count": 8,
+          "mean_activation": 0.5453125238418579,
+          "max_activation": 0.6622955799102783,
+          "score": 4.362500190734863
+        },
+        {
+          "feature_idx": 24634,
+          "count": 6,
+          "mean_activation": 0.6744285424550375,
+          "max_activation": 0.8862431645393372,
+          "score": 4.046571254730225
+        },
+        {
+          "feature_idx": 13238,
+          "count": 7,
+          "mean_activation": 0.4991098472050258,
+          "max_activation": 0.7588128447532654,
+          "score": 3.4937689304351807
+        },
+        {
+          "feature_idx": 4056,
+          "count": 6,
+          "mean_activation": 0.5650773048400879,
+          "max_activation": 0.8645238280296326,
+          "score": 3.3904638290405273
+        },
+        {
+          "feature_idx": 86138,
+          "count": 4,
+          "mean_activation": 0.6961517930030823,
+          "max_activation": 1.2681280374526978,
+          "score": 2.784607172012329
+        },
+        {
+          "feature_idx": 1876,
+          "count": 5,
+          "mean_activation": 0.5563833713531494,
+          "max_activation": 0.9407584071159363,
+          "score": 2.781916856765747
+        },
+        {
+          "feature_idx": 2897,
+          "count": 5,
+          "mean_activation": 0.536625337600708,
+          "max_activation": 0.7069327235221863,
+          "score": 2.68312668800354
+        },
+        {
+          "feature_idx": 88610,
+          "count": 5,
+          "mean_activation": 0.533197021484375,
+          "max_activation": 0.9622859358787537,
+          "score": 2.665985107421875
+        },
+        {
+          "feature_idx": 35639,
+          "count": 5,
+          "mean_activation": 0.495107364654541,
+          "max_activation": 0.6350367665290833,
+          "score": 2.475536823272705
+        },
+        {
+          "feature_idx": 91131,
+          "count": 6,
+          "mean_activation": 0.41151269276936847,
+          "max_activation": 0.527227520942688,
+          "score": 2.469076156616211
+        },
+        {
+          "feature_idx": 49418,
+          "count": 4,
+          "mean_activation": 0.5605962872505188,
+          "max_activation": 0.7826032638549805,
+          "score": 2.242385149002075
+        },
+        {
+          "feature_idx": 48926,
+          "count": 4,
+          "mean_activation": 0.5305808186531067,
+          "max_activation": 0.8754119873046875,
+          "score": 2.1223232746124268
+        },
+        {
+          "feature_idx": 35316,
+          "count": 4,
+          "mean_activation": 0.5047421455383301,
+          "max_activation": 0.637710452079773,
+          "score": 2.0189685821533203
+        },
+        {
+          "feature_idx": 120277,
+          "count": 4,
+          "mean_activation": 0.49239593744277954,
+          "max_activation": 0.6211038827896118,
+          "score": 1.9695837497711182
+        },
+        {
+          "feature_idx": 31446,
+          "count": 4,
+          "mean_activation": 0.4716458022594452,
+          "max_activation": 0.9487341642379761,
+          "score": 1.8865832090377808
+        },
+        {
+          "feature_idx": 54517,
+          "count": 4,
+          "mean_activation": 0.466237336397171,
+          "max_activation": 0.7400590181350708,
+          "score": 1.864949345588684
+        }
+      ],
+      "n_prompts": 8
+    }
+  },
+  "filtered": {
+    "safety_warnings": {
+      "top_features": [
+        {
+          "feature_idx": 20544,
+          "count": 7,
+          "mean_activation": 1.28217955998012,
+          "max_activation": 1.841037392616272,
+          "score": 8.97525691986084
+        },
+        {
+          "feature_idx": 72280,
+          "count": 5,
+          "mean_activation": 1.5789113998413087,
+          "max_activation": 1.7949320077896118,
+          "score": 7.894556999206543
+        },
+        {
+          "feature_idx": 86138,
+          "count": 6,
+          "mean_activation": 0.939452330271403,
+          "max_activation": 1.183955430984497,
+          "score": 5.636713981628418
+        },
+        {
+          "feature_idx": 38808,
+          "count": 8,
+          "mean_activation": 0.6520319581031799,
+          "max_activation": 0.7545536756515503,
+          "score": 5.2162556648254395
+        },
+        {
+          "feature_idx": 7225,
+          "count": 8,
+          "mean_activation": 0.6505997180938721,
+          "max_activation": 1.2087159156799316,
+          "score": 5.204797744750977
+        },
+        {
+          "feature_idx": 4056,
+          "count": 8,
+          "mean_activation": 0.6429563164710999,
+          "max_activation": 0.8679659962654114,
+          "score": 5.143650531768799
+        },
+        {
+          "feature_idx": 6256,
+          "count": 7,
+          "mean_activation": 0.6651270730154855,
+          "max_activation": 1.0304431915283203,
+          "score": 4.655889511108398
+        },
+        {
+          "feature_idx": 41931,
+          "count": 8,
+          "mean_activation": 0.5321716666221619,
+          "max_activation": 0.724382758140564,
+          "score": 4.257373332977295
+        },
+        {
+          "feature_idx": 82375,
+          "count": 8,
+          "mean_activation": 0.5132694244384766,
+          "max_activation": 0.6761367321014404,
+          "score": 4.1061553955078125
+        },
+        {
+          "feature_idx": 63583,
+          "count": 6,
+          "mean_activation": 0.5697428782780966,
+          "max_activation": 0.7535000443458557,
+          "score": 3.418457269668579
+        }
+      ],
+      "n_prompts": 8,
+      "excluded_universal": [
+        {
+          "feature_idx": 12926,
+          "count": 8,
+          "mean_activation": 3.7130913734436035,
+          "max_activation": 3.9827051162719727,
+          "score": 29.704730987548828
+        }
+      ]
+    },
+    "legal_regulatory": {
+      "top_features": [
+        {
+          "feature_idx": 86138,
+          "count": 8,
+          "mean_activation": 0.8565574288368225,
+          "max_activation": 1.2296887636184692,
+          "score": 6.85245943069458
+        },
+        {
+          "feature_idx": 4056,
+          "count": 8,
+          "mean_activation": 0.8303332328796387,
+          "max_activation": 1.135868787765503,
+          "score": 6.642665863037109
+        },
+        {
+          "feature_idx": 20544,
+          "count": 6,
+          "mean_activation": 1.0024488766988118,
+          "max_activation": 1.908474087715149,
+          "score": 6.014693260192871
+        },
+        {
+          "feature_idx": 7225,
+          "count": 7,
+          "mean_activation": 0.8531843594142369,
+          "max_activation": 1.1694433689117432,
+          "score": 5.972290515899658
+        },
+        {
+          "feature_idx": 38808,
+          "count": 8,
+          "mean_activation": 0.6287060379981995,
+          "max_activation": 0.7158030271530151,
+          "score": 5.029648303985596
+        },
+        {
+          "feature_idx": 82375,
+          "count": 8,
+          "mean_activation": 0.5877883434295654,
+          "max_activation": 0.6417996883392334,
+          "score": 4.702306747436523
+        },
+        {
+          "feature_idx": 98082,
+          "count": 6,
+          "mean_activation": 0.6716424624125162,
+          "max_activation": 0.9070043563842773,
+          "score": 4.029854774475098
+        },
+        {
+          "feature_idx": 72280,
+          "count": 4,
+          "mean_activation": 0.9868064522743225,
+          "max_activation": 1.9494975805282593,
+          "score": 3.94722580909729
+        },
+        {
+          "feature_idx": 63583,
+          "count": 7,
+          "mean_activation": 0.4876819338117327,
+          "max_activation": 0.8248594403266907,
+          "score": 3.413773536682129
+        },
+        {
+          "feature_idx": 41931,
+          "count": 7,
+          "mean_activation": 0.4743802547454834,
+          "max_activation": 0.7015928626060486,
+          "score": 3.320661783218384
+        }
+      ],
+      "n_prompts": 8,
+      "excluded_universal": [
+        {
+          "feature_idx": 12926,
+          "count": 8,
+          "mean_activation": 3.8207430839538574,
+          "max_activation": 3.973677158355713,
+          "score": 30.56594467163086
+        }
+      ]
+    },
+    "medieval_fantasy": {
+      "top_features": [
+        {
+          "feature_idx": 42566,
+          "count": 8,
+          "mean_activation": 1.7139626741409302,
+          "max_activation": 2.2765145301818848,
+          "score": 13.711701393127441
+        },
+        {
+          "feature_idx": 95793,
+          "count": 8,
+          "mean_activation": 1.2504607439041138,
+          "max_activation": 1.5739612579345703,
+          "score": 10.00368595123291
+        },
+        {
+          "feature_idx": 54517,
+          "count": 8,
+          "mean_activation": 1.02572762966156,
+          "max_activation": 1.6234793663024902,
+          "score": 8.20582103729248
+        },
+        {
+          "feature_idx": 1876,
+          "count": 7,
+          "mean_activation": 0.9802075794764927,
+          "max_activation": 1.2547374963760376,
+          "score": 6.861453056335449
+        },
+        {
+          "feature_idx": 18335,
+          "count": 7,
+          "mean_activation": 0.9509487152099609,
+          "max_activation": 1.3267641067504883,
+          "score": 6.656641006469727
+        },
+        {
+          "feature_idx": 7225,
+          "count": 8,
+          "mean_activation": 0.7241460084915161,
+          "max_activation": 0.9727428555488586,
+          "score": 5.793168067932129
+        },
+        {
+          "feature_idx": 38808,
+          "count": 8,
+          "mean_activation": 0.5503342151641846,
+          "max_activation": 0.6074701547622681,
+          "score": 4.402673721313477
+        },
+        {
+          "feature_idx": 9429,
+          "count": 8,
+          "mean_activation": 0.4970642328262329,
+          "max_activation": 0.6318918466567993,
+          "score": 3.9765138626098633
+        },
+        {
+          "feature_idx": 63583,
+          "count": 7,
+          "mean_activation": 0.5490478788103376,
+          "max_activation": 0.7463250756263733,
+          "score": 3.843335151672363
+        },
+        {
+          "feature_idx": 2897,
+          "count": 7,
+          "mean_activation": 0.5419246809823173,
+          "max_activation": 0.6637300252914429,
+          "score": 3.7934727668762207
+        }
+      ],
+      "n_prompts": 8,
+      "excluded_universal": [
+        {
+          "feature_idx": 12926,
+          "count": 8,
+          "mean_activation": 3.0021398067474365,
+          "max_activation": 3.8417410850524902,
+          "score": 24.017118453979492
+        }
+      ]
+    },
+    "science_research": {
+      "top_features": [
+        {
+          "feature_idx": 7225,
+          "count": 8,
+          "mean_activation": 1.0902522802352905,
+          "max_activation": 1.2575809955596924,
+          "score": 8.722018241882324
+        },
+        {
+          "feature_idx": 54517,
+          "count": 8,
+          "mean_activation": 0.8170011043548584,
+          "max_activation": 1.4111531972885132,
+          "score": 6.536008834838867
+        },
+        {
+          "feature_idx": 4056,
+          "count": 8,
+          "mean_activation": 0.7228159308433533,
+          "max_activation": 1.095515489578247,
+          "score": 5.782527446746826
+        },
+        {
+          "feature_idx": 41931,
+          "count": 8,
+          "mean_activation": 0.6181179881095886,
+          "max_activation": 0.8057478070259094,
+          "score": 4.944943904876709
+        },
+        {
+          "feature_idx": 18335,
+          "count": 7,
+          "mean_activation": 0.6942801475524902,
+          "max_activation": 1.1103663444519043,
+          "score": 4.859961032867432
+        },
+        {
+          "feature_idx": 74059,
+          "count": 8,
+          "mean_activation": 0.5873141884803772,
+          "max_activation": 0.6835907697677612,
+          "score": 4.698513507843018
+        },
+        {
+          "feature_idx": 82375,
+          "count": 8,
+          "mean_activation": 0.574791669845581,
+          "max_activation": 0.6998475193977356,
+          "score": 4.598333358764648
+        },
+        {
+          "feature_idx": 38808,
+          "count": 8,
+          "mean_activation": 0.5583570003509521,
+          "max_activation": 0.6813249588012695,
+          "score": 4.466856002807617
+        },
+        {
+          "feature_idx": 86138,
+          "count": 8,
+          "mean_activation": 0.5190650820732117,
+          "max_activation": 1.2598732709884644,
+          "score": 4.152520656585693
+        },
+        {
+          "feature_idx": 127435,
+          "count": 7,
+          "mean_activation": 0.5550220693860736,
+          "max_activation": 0.7421170473098755,
+          "score": 3.885154485702515
+        }
+      ],
+      "n_prompts": 8,
+      "excluded_universal": [
+        {
+          "feature_idx": 12926,
+          "count": 8,
+          "mean_activation": 3.6405739784240723,
+          "max_activation": 3.8944010734558105,
+          "score": 29.124591827392578
+        }
+      ]
+    },
+    "cooking_food": {
+      "top_features": [
+        {
+          "feature_idx": 7225,
+          "count": 8,
+          "mean_activation": 0.8580637574195862,
+          "max_activation": 1.1524020433425903,
+          "score": 6.8645100593566895
+        },
+        {
+          "feature_idx": 41931,
+          "count": 8,
+          "mean_activation": 0.639183759689331,
+          "max_activation": 0.9680495262145996,
+          "score": 5.113470077514648
+        },
+        {
+          "feature_idx": 38808,
+          "count": 8,
+          "mean_activation": 0.589954674243927,
+          "max_activation": 0.7199571132659912,
+          "score": 4.719637393951416
+        },
+        {
+          "feature_idx": 82375,
+          "count": 8,
+          "mean_activation": 0.5453125238418579,
+          "max_activation": 0.6622955799102783,
+          "score": 4.362500190734863
+        },
+        {
+          "feature_idx": 24634,
+          "count": 6,
+          "mean_activation": 0.6744285424550375,
+          "max_activation": 0.8862431645393372,
+          "score": 4.046571254730225
+        },
+        {
+          "feature_idx": 13238,
+          "count": 7,
+          "mean_activation": 0.4991098472050258,
+          "max_activation": 0.7588128447532654,
+          "score": 3.4937689304351807
+        },
+        {
+          "feature_idx": 4056,
+          "count": 6,
+          "mean_activation": 0.5650773048400879,
+          "max_activation": 0.8645238280296326,
+          "score": 3.3904638290405273
+        },
+        {
+          "feature_idx": 86138,
+          "count": 4,
+          "mean_activation": 0.6961517930030823,
+          "max_activation": 1.2681280374526978,
+          "score": 2.784607172012329
+        },
+        {
+          "feature_idx": 1876,
+          "count": 5,
+          "mean_activation": 0.5563833713531494,
+          "max_activation": 0.9407584071159363,
+          "score": 2.781916856765747
+        },
+        {
+          "feature_idx": 2897,
+          "count": 5,
+          "mean_activation": 0.536625337600708,
+          "max_activation": 0.7069327235221863,
+          "score": 2.68312668800354
+        }
+      ],
+      "n_prompts": 8,
+      "excluded_universal": [
+        {
+          "feature_idx": 12926,
+          "count": 8,
+          "mean_activation": 3.6408276557922363,
+          "max_activation": 3.967823028564453,
+          "score": 29.12662124633789
+        }
+      ]
+    }
+  }
+}

@@ -79,3 +79,43 @@ def harmonic_mean(scores: dict[str, int]) -> float:
     if any(v == 0 for v in vals):
         return 0.0
     return 3.0 / sum(1.0 / v for v in vals)
+
+
+def _naturalness_prompt(concept: str, response: str) -> str:
+    return (
+        f"Please act as an impartial judge and evaluate whether the following concept "
+        f"feels naturally woven into the text, or forced/shoehorned. "
+        f"The concept is: \"{concept}\". "
+        f"Rate on a scale from 0 to 2, where "
+        f"0 indicates the concept feels completely forced, awkwardly inserted, or like a non-sequitur, "
+        f"1 indicates the concept is present but its integration feels somewhat awkward or contrived, "
+        f"and 2 indicates the concept feels naturally woven into the response as if it belongs there."
+        f"\n\n--- BEGIN RESPONSE ---\n{response}\n--- END RESPONSE ---\n\n"
+        f"Provide brief reasoning, then give your rating in the format: Rating: [[score]]"
+    )
+
+
+def judge_response_extended(
+    response: str,
+    instruction: str,
+    concept: str = "The Eiffel Tower",
+) -> dict[str, int]:
+    """Score on 4 criteria: concept, instruction, fluency, naturalness."""
+    scores = judge_response(response, instruction, concept)
+    # Add naturalness
+    prompt = _naturalness_prompt(concept, response)
+    result = client.messages.create(
+        model=JUDGE_MODEL,
+        max_tokens=512,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    scores["naturalness"] = _extract_score(result.content[0].text)
+    return scores
+
+
+def harmonic_mean_extended(scores: dict[str, int]) -> float:
+    """4-criterion harmonic mean (concept, instruction, fluency, naturalness)."""
+    vals = [scores["concept"], scores["instruction"], scores["fluency"], scores["naturalness"]]
+    if any(v == 0 for v in vals):
+        return 0.0
+    return 4.0 / sum(1.0 / v for v in vals)
